@@ -6,9 +6,10 @@ Vue.use(VueRouter)
 Vue.use(VueMaterial)
 
 var Main = require('./app/main.vue')
+var Home = require('./view/home.vue')
 
 var routes = [
-  {path: '/', component: main}
+  {path: '/', component: Home},
 ]
 
 var router = new VueRouter({routes})

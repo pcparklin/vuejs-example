@@ -1,4 +1,3 @@
-
 <style>
 .main-content {
   padding: 20px;
@@ -15,20 +14,8 @@
     <md-button>Distribution</md-button>
     <md-button>Combination</md-button>
   </md-toolbar>
-  <div class="main-content">
-    <h1>Hello, {{ who }}.</h1>
-    <p>This is a basestack for vuejs. This project integrate vuejs with gulp, vueify and browserify.</p>
-  </div>
+
+  <router-view class="main-content"></router-view>
 </div>
 </template>
-
-<script>
-
-export default {
-  data () {
-    return {
-      "who": "world"
-    }
-  }
-}
-</script>
+<script></script>
