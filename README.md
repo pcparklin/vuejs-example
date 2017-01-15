@@ -15,8 +15,12 @@ Install all npm dependencies:
 $ npm install
 ```
 
-Build all static files using gulp
+## Development
+
+To open a development server, just use:
 
 ```
-$ gulp
+$ gulp dev
 ```
+
+This task will bundle your codes, start watching files changing, and open a webserver for you.
