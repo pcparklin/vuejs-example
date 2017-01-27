@@ -40,7 +40,9 @@ gulp.task("dev", ["clean", "html"], function () {
         fallback: 'index.html',
         livereload: false,
         directoryListing: false,
-        open: true
+        open: true,
+        host: '0.0.0.0',
+        port: 5006,
       }));
     })
   gulp.watch(["src/index.html", "src/**/*.vue", "src/**/*.js", "!src/dist/**"],

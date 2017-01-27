@@ -31,7 +31,9 @@ export default {
           x: {
               label: 'Sepal.Width',
               tick: {
-                  fit: false
+                  count: 6,
+                  fit: true,
+                  values: [0.5, 1, 1.7, 3, 3.6, 5]
               }
           },
           y: {

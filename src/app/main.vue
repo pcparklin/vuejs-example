@@ -11,6 +11,7 @@
       <md-icon>menu</md-icon>
     </md-button>
     <h2 class="md-title" style="flex: 1"><router-link to="/">Fund</router-link></h2>
+    <router-link to="/groups" tag="md-button">Groups</router-link>
     <router-link to="/distribution" tag="md-button">Distribution</router-link>
     <router-link to="/combination" tag="md-button">Combination</router-link>
   </md-toolbar>

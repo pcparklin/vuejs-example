@@ -34,7 +34,9 @@
     "vue-material": "^0.6.3",
     "vue-router": "^2.1.1",
     "vueify": "^9.4.0",
-    "watchify": "^3.8.0"
+    "watchify": "^3.8.0",
+    "vue-resource": "^1.0.3",
+    "rainbowvis.js": "^1.0.1"
   },
   "browserify": {
     "transform": [
